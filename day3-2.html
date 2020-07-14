@@ -1,0 +1,21 @@
+<html>
+      <head>
+          <title>diff between var,const and let</title>
+      </head>
+      <body>
+           <script>
+                // var declarations are globally scoped or function/locally scoped.
+                var greeter = "hey hi";
+    
+               function newFunction() {
+               var hello = "hello";
+             }
+                // let prefers to the variable declaration
+                    let greeting = "say Hi";
+                    greeting = "say Hello instead";
+                // Variables declared with the const maintain constant values. const declarations share some similarities with let declarations.
+                   const greeting = "say Hi";
+                   greeting = "say Hello instead";
+            </script>
+      </body>
+</html>
