@@ -1,0 +1,46 @@
+Data types in Javascript:
+
+1.String :
+      The string data type is used to represent textual data
+ (i.e. sequences of characters). Strings are created using
+ single or double quotes surrounding one or more
+ characters.It represents textual data.
+
+ex:  var a = 'Hi!';
+        var d = 'welcome to js';
+
+2.Number :
+        The number data type is used to represent positive
+ or negative numbers with or without decimal place, or 
+numbers written using exponential notation.It contains
+integer,float and complex numbers.
+  
+ex :  var a = 24;
+         var b = 90.3;
+          var c = 3.64e+8;
+
+3.Boolean :
+         The Boolean data type can hold only two values:
+ true or false. It is typically used to store values like
+ yes (true) or no (false), on (true) or off (false), etc. 
+
+ex :  var isReading = true;
+         var isSleeping = false;
+
+4.Undefined :
+           The undefined data type can only have one
+ value-the special value undefined. If a variable has
+ been declared, but has not been assigned a value, has
+ the value undefined.
+
+ex :  var a;
+         var b = "Hello World"
+          alert(a)   //o/p:undefined
+           alert(b) //o/p: Hello World
+
+5.Null :
+          It  is a special value that represents empty or 
+unknown value.
+
+ex :   let number = null;
+
