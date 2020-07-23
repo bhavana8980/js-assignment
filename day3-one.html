@@ -2,13 +2,22 @@
 <html>
 <body>
 <script>
-   var num = 6;
-   document.write("Number = "+num+"<br>");
-   if(num % 2 == 0) {
-      document.write('Number is even!');
-   } else {
-      document.write('Number is odd!');
-   }
+let evenn = function(k)
+{
+    let result = k % 2 ;
+if (result == 0) 
+    {
+        console.log("The number entered is " + k + " and Number is even.");
+    }
+    else
+    {
+        console.log("The number entered is " + k + " and Number is odd.");
+    }
+}
+let k = prompt("Enter a new number",0);
+let d = evenn(k);
+
+  
 </script>
 </body>
 </html>
