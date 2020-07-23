@@ -4,9 +4,31 @@
      </head>
      <body>
          <h1>sales department</h1>
-         <script src="sales.js"></script>
-     </body>
+         <script>
+           console.log("Sales done by employee");
 
+let sale = prompt("Enter sale done by employee",'0');
+if (sale >=0 && sale <=5000) {
+    comm = sale * 2;
+    console.log(`Sale done by employee is ${sale} and commision earned by him is ${comm}`);    
+}
+else if (sale >5000 && sale <=10000) {
+    comm = sale * 5;
+    console.log(`Sale done by employee is ${sale} and commision earned by him is ${comm}`);    
+}
+else if (sale >10000 && sale <=20000) {
+    comm = sale * 7;
+    console.log(`Sale done by employee is ${sale} and commision earned by him is ${comm}`);    
+}
+else{
+    comm = sale * 10;
+    console.log(`Sale done by employee is ${sale} and commision earned by him is ${comm}`);    
+}
+
+
+         </script>
+     </body>
+</html>
 
 
 
