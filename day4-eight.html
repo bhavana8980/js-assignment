@@ -3,7 +3,17 @@
        <title>Day 4 </title>
    </head>
    <body>
-       <script src="8.js"></script>
+       <script >
+        function ask(question, yes, no){
+    if(confirm(question))yes()
+    else no();
+}
+ask(
+    "Do you agree ?",
+    ()=> alert("You agreed."),
+    ()=> alert("You cancelled the executiton")
+);
+       </script>
    </body>
 
 
